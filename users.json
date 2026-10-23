@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "nick": "demo1",
+      "salt": "442ee32345860190eab5490c8b4de208",
+      "hash": "e500331ac19abbe96ccfc576c68f6788eb7d3b40703324e7f1db33d243b96a6ae52342a99e60e073e84f45b31ac9ee5272a5aa5ef10e80a87d4d5a21b8c3bbcb"
+    },
+    {
+      "nick": "demo2",
+      "salt": "46b5121231beb11263f486c468b01ede",
+      "hash": "9d70c65f3e4e6ecb96a8bf348d5525f5659d68aaaebfb1acffdff1d52c96142f4dcbb5522bbf9ba61e32d3b32dada191443aacd25e87a7c919957665ff290305"
+    },
+    {
+      "nick": "demo3",
+      "salt": "e9bf92cca190ef8e917a549086ec16b4",
+      "hash": "9e27450984c52c29f70e170a6cf811dc2403e34b5c5f5322a1d84d70823fbd3dd453e3a120ff45cdad1a9f87abc008977aa15dcbfc75b74a52a995a2c3fc5bdc"
+    },
+    {
+      "nick": "demo4",
+      "salt": "d29e3e367141d6bd25c0cf8fb5cdc665",
+      "hash": "c93e15cd79f5ff189504d666a623d1efbfe8e0d17a755d8522903424d44cd861f59c85a3cd65075d5053c4c961abc895bc62a45dbabca960bceeb0c349b67b0f"
+    }
+  ]
+}

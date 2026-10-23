@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>숲속 광장</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 1. 로그인 -->
+  <section id="screen-login" class="screen card-screen">
+    <form id="login-form" class="card">
+      <h1>🌳 숲속 광장</h1>
+      <p class="sub">닉네임과 비밀번호로 입장하세요</p>
+      <label>닉네임 <input id="login-nick" autocomplete="username" required maxlength="16"></label>
+      <label>비밀번호 <input id="login-pw" type="password" autocomplete="current-password" required></label>
+      <p id="login-error" class="error" hidden></p>
+      <button type="submit">입장하기</button>
+    </form>
+  </section>
+
+  <!-- 2. 아바타 선택 -->
+  <section id="screen-avatar" class="screen card-screen" hidden>
+    <div class="card wide">
+      <h1>어떤 동물로 놀러 갈까요?</h1>
+      <p class="sub"><span id="avatar-nick"></span> 님의 캐릭터를 골라주세요</p>
+      <div id="avatar-list" class="avatar-list"></div>
+      <button id="avatar-confirm" disabled>광장으로 가기</button>
+    </div>
+  </section>
+
+  <!-- 3. 광장 -->
+  <section id="screen-plaza" class="screen plaza" hidden>
+    <div id="game" class="game"></div>
+    <aside class="side">
+      <h2>접속 중 <span id="player-count">0</span></h2>
+      <ul id="player-list" class="player-list"></ul>
+      <p class="hint">방향키 또는 WASD로 이동</p>
+      <p id="conn-status" class="conn"></p>
+    </aside>
+  </section>
+
+  <script src="vendor/phaser.min.js"></script>
+  <script src="game.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
